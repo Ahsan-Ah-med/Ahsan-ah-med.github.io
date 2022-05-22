@@ -149,6 +149,11 @@
     box-shadow: 0px 10px 20px gray;
     margin: 20px;
     margin-bottom: 80px;
+    transition: 0.3s;
+}
+.ps:hover{
+    background-color: rgba(221, 221, 221, 0.787);
+    box-shadow: 0px 10px 20px 10px gray;
 }
 .ps ul li {
     width: 100%;
