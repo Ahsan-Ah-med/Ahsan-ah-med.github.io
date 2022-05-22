@@ -48,6 +48,11 @@
     position: relative;
     box-shadow: 0px 10px 20px gray;
     margin-bottom: 80px;
+    transition: 0.3s;
+}
+.Ebox:hover {
+    background-color: rgba(221, 221, 221, 0.787);
+    box-shadow: 0px 10px 20px 10px gray;
 }
 .pos {
     width: 50%;
