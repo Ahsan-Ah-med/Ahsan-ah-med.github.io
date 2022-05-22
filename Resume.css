@@ -50,15 +50,17 @@
     margin-bottom: 80px;
 }
 .pos {
-    width: 40%;
+    width: 50%;
     height: 367px;
     /* color: #0050ff; */
     grid-template-rows: 50px 50px 50px 50px 50px 50px 57px;
     display: grid;
+    text-align: left;
 }
 #h3 {
     grid-row: 3/2;
     color: #0050ff;
+    padding-left: 50px;
 }
 #h3 span {
     color: #0050ff;
@@ -132,7 +134,7 @@
 }
 .ps {
     width: 724px;
-    height: 511px;
+    height: 367px;
     background-color: white;
     text-align: left;
     margin: auto;
@@ -143,12 +145,13 @@
     margin: 20px;
     margin-bottom: 80px;
 }
-.ps p {
-    width: 50%;
+.ps ul li {
+    width: 100%;
     height: auto;
-    margin-left: 70px;
-    font-size: 13px;
-    font-weight: bold;
+    margin-left: 50px;
+    font-size: 28px;
+    font-weight:550 ;
+    /* font-size: medium; */
     font-family: 'Courier New', Courier, monospace;
 }
 .ps h1 {
