@@ -1,0 +1,275 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+.head {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 20vh;
+    box-shadow: inset 0px 5px 5px gray;
+
+}
+
+.contant {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    width: 45%;
+    text-align: center;
+    display: inline-flex;
+    padding: 10px;
+    padding-left: 30px;
+}
+.logo span {
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: blue;
+    margin-top: 30px;
+    /* padding: 5spx; */
+}
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo h3 {
+    margin-top: 50px;
+    padding: auto;
+}
+
+.menu {
+    width: 55%;
+    text-align: right;
+}
+
+.menu ul li {
+    justify-content: space-between;
+    display: inline-flex;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.menu ul {
+    margin-top: 45px;
+}
+
+.main {
+    /* background-color :  tomato; */
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    position: absolute;
+    /* padding-top: 100px; */
+}
+
+.leftside {
+    width: 40%;
+    background-color: #b6d5e1;
+    height: auto;
+    /* padding-top: 100px; */
+}
+
+.rightside {
+    justify-content: right;
+    width: 60%;
+    background-color: white;
+    height: 100%;
+}
+
+.box {
+    /* background-color: aquamarine; */
+    width: 900px;
+    height: 525px;
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.boxleft {
+    box-shadow: -5px 1px 10px -4px rgba(0, 0, 0, .6);
+    width: 42%;
+    height: 525px;
+    background-color: #e2eff1;
+}
+
+.boxright {
+    width: 58%;
+    height: 525px;
+    background-color: transparent;
+    margin-left: 30px;
+
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name p {
+    background-color: blue;
+    width: 50px;
+    height: 3px;
+    border-radius: 20%;
+    margin: auto;
+    transition: .7s;
+}
+/* .name p:hover{
+    width: 250px;
+} */
+.social {
+    width: 100%;
+    height: 53px;
+    background-color: white;
+    margin-top: 31%;
+    justify-content: center;
+    /* padding-left: 20%; */
+    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    display: grid;
+}
+#i1{
+    grid-column: 2/3;
+}
+#i2{
+    grid-column: 3/4;
+}
+#i3{
+    grid-column: 4/5;
+}
+#i4{
+    grid-column: 5/6;
+}
+
+.social a img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.boxright h1 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.boxright h3 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -70px;
+}
+
+button {
+    align-items: center;
+    box-sizing: border-box;
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    /* background: transparent; */
+    background-color: #0050ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #0050ff;
+    transition: 0.5s;
+}
+
+.boxright #b2 {
+    color: black;
+    background-color: white;
+    border: 2px solid #0050ff;
+    transition: 0.5s;
+}
+
+.boxright #b2:hover {
+    color: white;
+    background-color: #0050ff;
+    border: 2px solid #0050ff;
+    transition: 0.5s;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 50% 10% 20% 20%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.follow a img {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul li a {
+    color: #000;
+}
+.box:hover .name p {
+    width:260px;
+}
+
+
+/* .change-content:after{
+    content: '';
+    animation: changetext 10s infinite linear ;
+    font-size: 1rem;
+   }
+@keyframes changetext{
+    0% { content:"UI developer"; }
+    20% { content:"UX developer"; }
+    40% { content:"Web developer"; }
+    60% { content: "Web designer"; }
+    80% { content: "front end developer"; }
+    100% { content: "full stack developer"; }
+  } */
+

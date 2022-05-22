@@ -1,0 +1,35 @@
+.Emain {
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    text-align: left;
+    position: relative;
+    /* padding-top: 30px; */
+}
+.Emain span {
+    width: 0px;
+    height: 50px;
+    background-color: #0050ff;
+    padding: 5px;
+    position: absolute;
+    margin-top: 30px;
+}
+.Emain h1,p {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.Emain h1{
+    color: #0050ff;
+}
+.Emain p{
+    margin-top: -10px;
+}
+.ER {
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.ER img{
+    width: 101%;
+    height: 367px;
+}
