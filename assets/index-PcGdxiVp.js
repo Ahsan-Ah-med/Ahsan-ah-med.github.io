@@ -81,4 +81,4 @@ Error generating stack: `+i.message+`
   top: -50%;
   z-index: -1;
 }
-`;function B1(){const e=or();return N.useEffect(()=>{Mv.init()},[]),S.jsxs(S.Fragment,{children:[S.jsx(U1,{pathname:e.pathname}),S.jsx(A0,{children:S.jsxs(on,{path:"/",element:S.jsx(yv,{}),children:[S.jsx(on,{index:!0,element:S.jsx(fv,{})}),S.jsx(on,{path:"/about",element:S.jsx(Rv,{})}),S.jsx(on,{path:"projects",element:S.jsx(Tv,{})}),S.jsx(on,{path:"contact",element:S.jsx(Iv,{})}),S.jsx(on,{path:"privacy",element:S.jsx(F1,{})})]})})]})}Ed(document.getElementById("root")).render(S.jsx(N.StrictMode,{children:S.jsx(K0,{children:S.jsx(B1,{})})}));
+`;function B1(){const e=or();return N.useEffect(()=>{Mv.init()},[]),S.jsxs(S.Fragment,{children:[S.jsx(U1,{pathname:e.pathname}),S.jsx(A0,{children:S.jsxs(on,{path:"/",element:S.jsx(yv,{}),children:[S.jsx(on,{index:!0,element:S.jsx(fv,{})}),S.jsx(on,{path:"/about",element:S.jsx(Rv,{})}),S.jsx(on,{path:"projects",element:S.jsx(Tv,{})}),S.jsx(on,{path:"contact",element:S.jsx(Iv,{})}),S.jsx(on,{path:"page-privacy",element:S.jsx(F1,{})})]})})]})}Ed(document.getElementById("root")).render(S.jsx(N.StrictMode,{children:S.jsx(K0,{children:S.jsx(B1,{})})}));
